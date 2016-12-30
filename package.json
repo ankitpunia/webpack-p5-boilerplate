@@ -1,0 +1,33 @@
+{
+    "name": "reynolds-steering-behaviors",
+    "version": "1.0.0",
+    "main": "sketch/js/sketch.js",
+    "eslintConfig": {
+        "extends": "eslint-config-airbnb"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "node ./node_modules/webpack/bin/webpack.js -p",
+        "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --history-api-fallback"
+    },
+    "author": "Ankit Punia",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.20.0",
+        "babel-loader": "^6.2.9",
+        "babel-preset-es2015": "^6.18.0",
+        "eslint": "^3.12.0",
+        "eslint-config-airbnb": "^13.0.0",
+        "eslint-import-resolver-webpack": "^0.7.1",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^2.2.3",
+        "eslint-plugin-react": "^6.8.0",
+        "file-loader": "^0.9.0",
+        "webpack": "^1.14.0",
+        "webpack-dev-server": "^1.16.2"
+    },
+    "dependencies": {
+        "p5": "^0.5.5"
+    },
+    "description": ""
+}
