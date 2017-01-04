@@ -1,5 +1,5 @@
 {
-    "name": "reynolds-steering-behaviors",
+    "name": "example-project",
     "version": "1.0.0",
     "main": "sketch/js/sketch.js",
     "eslintConfig": {
